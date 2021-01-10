@@ -1,0 +1,10 @@
+--- .bash_profile	2021-01-07 06:23:34.742132593 +0000
++++ bash_profile	2021-01-10 01:51:57.698433082 +0000
+@@ -7,6 +7,6 @@ fi
+ 
+ # User specific environment and startup programs
+ 
+-PATH=$PATH:$HOME/.local/bin:$HOME/bin
++PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/.npm-global/bin
+ 
+ export PATH
