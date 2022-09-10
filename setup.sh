@@ -2,8 +2,8 @@
 
 sudo yum -y install patch
 
-mkdir ~/.npm-global
-export NPM_CONFIG_PREFIX=~/.npm-global
-npm install -g aws-cdk
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+source .bashrc
 
-patch ~/.bash_profile bash_profile.patch
+nvm install --lts=*
+npm install -g aws-cdk
